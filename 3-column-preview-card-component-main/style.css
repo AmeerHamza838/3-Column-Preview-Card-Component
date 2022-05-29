@@ -11,7 +11,9 @@ body {
   font-size: 15px;
   background: var(--very-light-gray);
 }
-main {
+
+  
+.main-container{
   margin: 50px 0;
   display: flex;
   align-content: center;
@@ -59,6 +61,7 @@ main {
   border: 2px var(--very-light-gray) solid;
 }
 .btn:hover {
+  cursor: pointer;
   background-color: transparent;
   color: var(--very-light-gray);
 }
@@ -72,6 +75,17 @@ main {
 .c {
   color: var(--very-dark-cyan);
 }
+
+.attribution {
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
 
 @media (max-width: 962px) {
   main {
