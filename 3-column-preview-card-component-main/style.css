@@ -16,6 +16,7 @@ main {
   display: flex;
   align-content: center;
   justify-content: center;
+  min-height: 100vh;
 }
 .container {
   width: 215px;
